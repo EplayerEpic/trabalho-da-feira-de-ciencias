@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,12 +8,42 @@
     <title>FINALIZAÇÂO!</title>
 </head>
 <style>
+    #img {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        animation-name: animation;
+        animation-duration: 1s;
+    }
 
-#img{ margin-left:auto;
-margin-right:auto;
-display:block;}
+    #div {
+        border: 3px crimson;
+        animation-name: animation;
+        animation-duration: 1s;
+    }
 
-#OMAGAWD{ border: 3px crimson; }
+    h1 {
+        animation-name: animation;
+        animation-duration: 1s;
+    }
+
+
+
+    @keyframes animation {
+
+        from {
+            opacity: 0;
+            transform: translateX(-10px);
+        }
+
+
+        to {
+            opacity: 1;
+
+            transform: translateX(0px)
+        }
+
+    }
 </style>
 
 
@@ -20,12 +51,15 @@ display:block;}
 <body>
     <h1> Muito bem, esse e o final da apresentaçao, espero que tenham gostados!</h1>
 
-<img id="img" src="https://i.pinimg.com/originals/81/e2/55/81e255e0ceeca98084787662c4f7814c.gif" ><br>
+    <img id="img" src="https://i.pinimg.com/originals/81/e2/55/81e255e0ceeca98084787662c4f7814c.gif"><br>
 
 
 
 
 
-<div id="OMGAWD"><p> Site feito por Enzo e Samuel</p></div>
+    <div id="div">
+        <p> Site feito por Enzo e Samuel</p>
+    </div>
 </body>
+
 </html>

@@ -1,0 +1,57 @@
+#BAH1 {
+    border: 1px solid green;
+    animation-name: animation;
+    animation-duration: 1s;
+}
+
+#fazenda {
+    border: 5px solid rgb(73, 50, 205);
+    animation-name: animation;
+    animation-duration: 1s;
+}
+
+#Auto {
+    border: 5px solid rgb(255, 0, 0);
+    animation-name: animation;
+    animation-duration: 1s;
+}
+
+#TOY {
+    border: 5px solid cornflowerblue;
+    animation-name: animation;
+    animation-duration: 1s;
+}
+
+#Chamine {
+    border: 5px solid rgb(128, 47, 0);
+    animation-name: animation;
+    animation-duration: 1s;
+}
+
+#BRUH {
+    border: 2px solid crimson;
+    animation-name: animation;
+    animation-duration: 1s;
+}
+
+#perguntas {
+    border: 2px solid rgb(163, 53, 53);
+    animation-name: animation;
+    animation-duration: 1s;
+}
+
+img{ animation-name: animation;
+    animation-duration: 1s;}
+
+
+@keyframes animation{
+
+from{ opacity: 0;
+    transform: translateX(-10px);}
+
+
+to{ opacity: 1;
+    
+    transform: translateX(0px)}
+
+}
